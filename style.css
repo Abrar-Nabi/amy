@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  overflow-x:hidden ;
+}
+
+header {
+  background-color:black;
+  color: #fff;
+  /* padding: 20px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  height: 7rem;
+  width: 12rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 2.5rem;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  padding-left: 0.5rem;
+  padding-right:0.5rem ;
+  
+ 
+  text-decoration: none;
+}
+.mobile-navbar-btn{
+  display: none;
+background-color: transparent;
+cursor: pointer;
+
+}
+
+
+
+.mobile-navbar-icon{
+  height: 3rem;
+  width: 3rem;
+}
+
+.mobile-navbar-icon[name=close-outline]{
+  display: none;
+}
+
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.product {
+  width: calc(25% - 10px);
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  max-width: 100%;
+}
+
+
+@media(max-width: 62rem){
+  .mobile-navbar-btn{
+    display: block;
+
+  }
+
+  .Navbar{
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #616060;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(100%);
+    transition: all 0.5s linear ;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  
+  nav ul{
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  nav ul li{
+    margin: 1rem;
+  }
+
+  .active .desktop-navbar{
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible ;
+    pointer-events: auto;
+  }
+.active .mobile-navbar-btn .mobile-navbar-icon[name=close-outline]{
+  display: block;
+}
+
+.active .mobile-navbar-btn .mobile-navbar-icon[name=menu-outline]{
+  display: none;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+  .product {
+    width: calc(50% - 10px);
+  }
+}
