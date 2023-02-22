@@ -1,10 +1,11 @@
-const mobile_nav = document.querySelector(".mobile-navbar-btn");
-const nav_header = document.querySelector(".header");
-
-const toggleNavbar = () => {
-    nav_header.classList.toggle("active");
-
-}
 
 
-mobile_nav.addEventListener("click", () => toggleNavbar());
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  } 
