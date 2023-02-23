@@ -67,7 +67,7 @@ align-items: center;
   color: #ffffff;
   height:3rem;
   width: 2rem;
-  padding-left: 2rem;
+  padding:0.4rem ;
 
 }
 .marquee{
@@ -147,7 +147,7 @@ h2 {
     display: block;
     position: relative;
     top:10rem;
-    right:12rem;
+    right:8rem;
     
 
   }
@@ -179,15 +179,3 @@ h2 {
     width: calc(50% - 10px);
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
