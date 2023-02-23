@@ -4,6 +4,7 @@
   body{
     margin: 0;
     font-family: sans-serif;
+    
   }
 
   header {
@@ -26,7 +27,7 @@
 
 .navbar{
 overflow: hidden;
-margin-right: 1rem;
+/* margin-right: 1rem; */
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -130,19 +131,19 @@ h2 {
   .navbar .mobile-logo{
 
    
-    display: block;
-    position: relative;
-   
-    left:10rem;
-  }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+    
 
  .navbar .navbar-btn .icons {
       
       display: block;
       background: transparent;
       cursor: pointer;
-      /* margin-bottom: 5rem; */
+      margin-left: 16rem;
       color: #f2f2f2;
+      float: right;
   }
 }
 
@@ -170,7 +171,7 @@ h2 {
   .navbar.responsive .social-icons{
     display: block;
     position: relative;
-    top:6rem;
+    top:3rem;
     left: 10rem;
     
     
@@ -178,7 +179,8 @@ h2 {
   }
   .navbar.responsive .menu-icons{
       position: relative;
-      top:3rem;
+      top:1rem;
+      color: #b96220;
       padding-bottom: 2rem;
       display: block;
       float: none;
