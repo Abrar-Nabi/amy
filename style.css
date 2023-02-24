@@ -177,6 +177,10 @@ h2 {
     font-size: 1.7rem;
   }
 
+  .social-icon{
+    padding: 0px;
+  }
+
   .navbar .navbar-btn .icons {
 
     display: block;
