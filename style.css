@@ -95,9 +95,8 @@ height: 3.5rem;
  
 }
 .social-icon:hover{
-  color: #d8d7d7;
-  background-color: rgb(28, 27, 27);
-  
+  color: #2e60ec;
+
 }
 
 
@@ -179,6 +178,7 @@ h2 {
 
   .social-icon{
     padding: 0px;
+    margin-right: 1rem;
   }
 
   .navbar .navbar-btn .icons {
