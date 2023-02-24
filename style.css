@@ -45,8 +45,7 @@ header {
 
 .navbar {
   background-color: #d8d7d7;
-/* border: 10px solid blue; */
-height: 3rem;
+height: 3.5rem;
 
 }
 
@@ -66,13 +65,12 @@ height: 3rem;
 }
 
 .navbar .menu-icons:hover {
-  background-color: #000000;
- border-radius: 50%;
+  background-color: rgb(28, 27, 27);
   color: rgb(255, 255, 255);
   font-weight: bold;
 }
 .navbar .navbar-btn .menu-icons:active {
-  background-color: #000000;
+  background-color: rgb(28, 27, 27);
 }
 
 .navbar .navbar-btn .icons {
@@ -89,6 +87,7 @@ height: 3rem;
 .social-icon {
   
   color: #030303;
+
   /* background-color: #b96220; */
   margin-left: 0.5rem;
   padding: 0.5rem;
@@ -97,8 +96,8 @@ height: 3rem;
 }
 .social-icon:hover{
   color: #d8d7d7;
-  background-color: black;
-  border-radius: 40%;
+  background-color: rgb(28, 27, 27);
+  
 }
 
 
@@ -183,6 +182,7 @@ h2 {
     display: block;
     background: transparent;
     cursor: pointer;
+   
     /* margin-left: 16rem; */
     color: #0a0a0a;
   
@@ -219,7 +219,7 @@ h2 {
   .navbar.responsive .menu-icons {
     position: relative;
     top: 1rem;
-    color: #b96220;
+    color: #080808;
     padding-bottom: 2rem;
     display: block;
     float: none;
